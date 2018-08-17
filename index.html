@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Rover</title>
+  <link rel="stylesheet" href="style.css">
+  <style media="screen">
+  </style>
+</head>
+<body>
+  <h1>Mars Rover</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <canvas id="myCanvas" width="575" height="575"></canvas>
+      </div>
+      <div class="col-6">
+        <ul>
+          <li><p>Rover A Position: [0,0]</p>
+          <input type="text" id="movementsA" class="movements" placeholder="Insert f,b,r or l to move the rover"></li>
+          <li><p>Rover B Position: [9,9]</p>
+          <input type="text" id="movementsB" class="movements" placeholder="Insert f,b,r or l to move the rover"></li>
+        </ul>
+        <ul  id="obstacles">
+          <li><p>Obstacle</p>
+          x<input type="text" id="obstacleAx1" class="obstacles" value = "5">
+          y<input type="text" id="obstacleAy1" class="obstacles" value = "5"></li>
+          <li><p>Obstacle</p>
+          x<input type="text" id="obstacleAx2" class="obstacles" value = "6">
+          y<input type="text" id="obstacleAy2" class="obstacles" value = "1"></li>
+        </ul>
+        <p></p>
+        <button type="button" name="button" onclick="go(roverA,roverB)">Start</button>
+        <!--<button onClick="addObstacles()">Add Obstacle</button>-->
+      </div>
+      <div class="col-6">
+        <p id="traverLog">Rovers Traver Log</p>
+      </div>
+    </div>
+  </div>
+  <script src="rover.js"></script>
+</body>
+</html>

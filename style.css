@@ -1,0 +1,56 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+p{
+  font-family: "Open Sans","OpenSans",sans-serif;
+  width: 100%;
+  padding: 2px;
+}
+
+body{
+  color: white;
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+.col-6{
+  margin: 0;
+  display: inline-block;
+  float: left;
+  padding:5px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+li{
+  padding:10px;
+}
+
+canvas{
+   background:#FF7F50;
+   border-radius:25px;
+}
+
+h1{
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size:40px;
+  padding-left: 40%;
+}
+
+input{
+  border-color:orange;
+}
+
+button{
+  margin: 10px;
+}
+
+.obstacles{
+  width: 15px;
+  border-radius: 5px;
+}
+
+.movements{
+  width:180px;
+  border-radius: 5px;
+}
